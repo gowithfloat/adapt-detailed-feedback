@@ -1,6 +1,6 @@
 {
   "name": "adapt-detailed-feedback",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "framework": "^2.0.0",
   "displayName" : "Detailed Feedback",
   "extension" : "detailed-feedback",
