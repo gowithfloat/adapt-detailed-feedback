@@ -63,7 +63,7 @@ function _determineGenericFeedback(model) {
    * @return {string}                The feedback.
    */
   function _selectFeedback(feedbackObject) {
-    if (model.get('_attemptsLeft') === 0 || !feedbackObject.notFinal) {
+    if (model.get('_attemptsLeft') === 0 || !(feedbackObject.notFinal && feedbackObject.notFinal.length)) {
       return feedbackObject.final;
     } else {
       return feedbackObject.notFinal;
