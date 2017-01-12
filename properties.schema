@@ -1,0 +1,69 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "required":false,
+  "properties":{
+    "pluginLocations": {
+      "type": "object",
+      "required":true,
+      "properties":{
+        "config": {
+          "type": "object",
+          "properties":{
+            "_detailedFeedback": {
+              "legend": "Detailed Feedback",
+              "type": "object",
+              "required": false,
+              "properties": {
+                "_isEnabled": {
+                  "type": "boolean",
+                  "required":true,
+                  "default": true,
+                  "title": "Enabled",
+                  "help": "Disabling detailed feedback will prevent feedback from appearing when a question is answered.",
+                  "inputType": {
+                      "type": "Boolean",
+                      "options": [ 
+                        true, 
+                        false
+                      ]
+                    }
+                },
+                "_showDetailsBeforeLastAttempt": {
+                  "type": "boolean",
+                  "required": true,
+                  "default": true,
+                  "title": "Show detailed feedback before last attempt",
+                  "help": "If a question allows for multiple attempts, showing the detailed feedback before the last attempt may give away the answer. Detailed feedback will always be shown when the question is answered correctly.",
+                  "inputType": {
+                      "type": "Boolean",
+                      "options": [ 
+                        true, 
+                        false
+                      ]
+                    }
+                }
+              }
+            }
+          }
+        },
+        "course": {
+          "type": "object"
+        },
+        "contentobject": {
+          "type": "object"
+        },
+        "article": {
+          "type": "object"
+        },
+        "block": {
+          "type": "object"
+        },
+        "component": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}
