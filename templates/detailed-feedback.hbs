@@ -2,7 +2,9 @@
 
 {{#if shouldShowDetails}}
 	{{#each _selectedItems}}
-		<h4>{{{text}}}</h4>
-		<p>{{{feedback}}}</p>
+		{{#if feedback}}
+			<h4>{{{text}}}</h4>
+			<p>{{{feedback}}}</p>
+		{{/if}}
 	{{/each}}
 {{/if}}
