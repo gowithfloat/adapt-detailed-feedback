@@ -4,7 +4,7 @@
   "framework": "^2.0.0",
   "displayName" : "Detailed Feedback",
   "extension" : "detailed-feedback",
-  "description": "Drop-in replacement for Tutor that provides more detailed feedback on questions",
+  "description": "Detailed Feedback is a drop-in replacement for Tutor that provides more detailed feedback on multiple-choice questions",
   "main": "/js/adapt-detailed-feedback.js",
   "keywords": [
     "adapt-plugin",
