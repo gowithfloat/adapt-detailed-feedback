@@ -1,0 +1,8 @@
+// config.json
+{
+	// ...
+	"_detailedFeedback": {
+		"_isEnabled": true,
+		"_showsDetailsBeforeLastAttempt": false
+	}
+}
