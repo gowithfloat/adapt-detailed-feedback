@@ -1,15 +1,18 @@
 {
-  "name": "adapt-detailed-feedback",
-  "version": "0.5.0",
-  "framework": "^2.0.0",
-  "displayName" : "Detailed Feedback",
-  "extension" : "detailed-feedback",
-  "description": "Detailed Feedback is a drop-in replacement for Tutor that provides more detailed feedback on multiple-choice questions",
-  "main": "/js/adapt-detailed-feedback.js",
-  "keywords": [
-    "adapt-plugin",
-    "adapt-extension"
-  ],
-  "license": "MIT",
-  "targetAttribute": "_detailedFeedback"
+    "name": "adapt-detailed-feedback",
+    "repository": "git://github.com/gowithfloat/adapt-detailed-feedback.git",
+    "framework": "^2.0.0",
+    "homepage": "https://github.com/gowithfloat/adapt-detailed-feedback",
+    "issues": "https://github.com/gowithfloat/adapt-detailed-feedback/issues",
+    "version": "0.5.0",
+    "displayName": "Detailed Feedback",
+    "extension": "detailed-feedback",
+    "description": "Detailed Feedback is a drop-in replacement for Tutor that provides more detailed feedback on multiple-choice questions",
+    "main": "/js/adapt-detailed-feedback.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-extension"
+    ],
+    "license": "MIT",
+    "targetAttribute": "_detailedFeedback"
 }
